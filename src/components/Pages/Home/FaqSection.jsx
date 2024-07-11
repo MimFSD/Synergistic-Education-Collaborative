@@ -14,7 +14,7 @@ const FaqSection = () => {
                     <div>
                         <input className='lg:px-20 lg:py-2 rounded-2xl mt-6 bg-gray-300' placeholder='Type your search' type="text" name="" id="" />
                         <p></p>
-                    </div>
+                    </div>              
                     <div className='ml-4 md:ml-0 lg:ml-0'>
                         <h2 className='lg:ml-2 font-bold text-xl mt-4'>What type of service?</h2>
                         <hr className='lg:ml-2 my-4' />
