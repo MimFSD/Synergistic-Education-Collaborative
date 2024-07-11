@@ -9,10 +9,10 @@ const Contact = () => {
     const { theme } = useContext(AuthProvider);
     return (
         <div className={theme === 'light' ? "min-h-screen contactbg libre-font pt-20 md:pl-20" : "min-h-screen contactBg libre-font pt-20 md:pl-20"}>
-            <Helmet>
+            <Helmet>            
                 <title>E-Group Study - Contact Page</title>
             </Helmet>
-            <div>
+            <div>              
                 <h2 className={theme === 'light' ? "text-[#002379] font-extrabold pl-4 md:pl-9 text-6xl" : "text-white font-extrabold pl-4 md:pl-9 text-6xl"}>Contact Us</h2>
                 <div className="pt-10 pl-6">
                     <div className="flex items-center font-bold ">
@@ -26,7 +26,7 @@ const Contact = () => {
                         <MdEmail className="size-5 relative left-10"></MdEmail>
                         <input className="p-3 bg-[#FDFFC2] my-3 border-b-2 border-black shadow-2xl w-80 rounded-3xl" type="text" name="" id="" />
                         <h2 className="font-bold relative right-60   text-gray-600">Email</h2>
-                    </div>
+                    </div>            
                     <div className="flex items-center pl-9 md:pl-0">
                         <RiMessage2Fill className=" size-20 relative left-10 bottom-12 md:bottom-14 md:size-5 "></RiMessage2Fill>
                         <input placeholder="" className=" bg-[#FDFFC2] border-b-2 border-black shadow-2xl p-3 w-[800px] md:w-80 h-40 rounded-3xl" type="text" name="" id="" />
