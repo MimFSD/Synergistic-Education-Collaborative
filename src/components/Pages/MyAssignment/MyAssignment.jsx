@@ -14,17 +14,17 @@ const MyAssignment = () => {
                 setMyAssignment(filterData);
             })
     }, [user?.email])
-
-    return (
+                            
+    return (                   
         <div className="min-h-screen">
             <Helmet>
                 <title>E-Group Study - MyAssignment</title>
             </Helmet>
-            {
+            {                     
                 myassignment.map(data => <Myassignment2 key={data._id} data={data}></Myassignment2>)
             }
         </div>
     );
-};
+};               
 
 export default MyAssignment;
