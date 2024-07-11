@@ -8,11 +8,11 @@ const Footer = () => {
             <div className='col-span-2'>
                 <img className=' rounded-full' src={logo} alt="" />
                 <p className="text-3xl font-bold">E-Group Study</p>
-            </div>
+            </div>             
             <div className='flex justify-between col-span-3'>
-                <div className='flex flex-col '>
+                <div className='flex flex-col '>                 
                     <h6 className="footer-title">Services</h6>
-                    <a className="link link-hover">Branding</a>
+                    <a className="link link-hover">Branding</a>         
                     <a className="link link-hover">Design</a>
                     <a className="link link-hover">Marketing</a>
                     <a className="link link-hover">Advertisement</a>
