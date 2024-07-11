@@ -3,7 +3,7 @@
 
 
 PROJECT Name :  
-# E-GroupStudy 
+E-GroupStudy 
 
 # Feature For my E-GroupStudy project :
 
