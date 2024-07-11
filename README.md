@@ -3,8 +3,7 @@
 
  [Synergistic-Education-Collaborative](https://online-group-study-67ed0.firebaseapp.com/)
 
-PROJECT Name :  
-E-GroupStudy 
+PROJECT Name :  Online group study - Synergistic Education Collaborative
 
 # Feature  :
 
