@@ -6,7 +6,7 @@
 PROJECT Name :  
 E-GroupStudy 
 
-# Feature For my E-GroupStudy project :
+# Feature  :
 
  - Banner
  - Feature Section
