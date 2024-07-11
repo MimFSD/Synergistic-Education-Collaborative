@@ -7,7 +7,6 @@ const MarkPage = () => {
     const { doc, textarea } = loadData;
     const navigate = useNavigate();
 
-
     const handleMark = e => {
         e.preventDefault();
         const form = e.target;
