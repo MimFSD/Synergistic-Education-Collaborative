@@ -6,14 +6,13 @@ import { GoogleAuthProvider } from 'firebase/auth';
 import { FcGoogle } from "react-icons/fc";
 import { Helmet } from 'react-helmet-async';
 
-
 const Login = () => {
     const { signIn, googleLogin } = useContext(AuthProvider);
     const [success, setSuccess] = useState('');
     const provider = new GoogleAuthProvider();
     const navigate = useNavigate();
     const [emailnotMatch, setemailnotMatch] = useState();
-
+        
     const handleLogin = e => {
         e.preventDefault();
         const form = e.target;
