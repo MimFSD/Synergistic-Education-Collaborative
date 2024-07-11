@@ -7,11 +7,11 @@ const OnlyPendingAssignment = ({ data }) => {
     const {_id, title, num, name, email } = data;
     return (
         <div className={theme === 'light' ?"overflow-x-auto ml-0 lg:ml-16" :"overflow-x-auto text-white bg-gray-700 ml-0 lg:ml-16"}>
-            {
+            {                        
                 num === '' ?<table className="table mt-5">
-                {/* head */}
+                {/* head */}                    
                 <thead>
-                    <tr>
+                    <tr>                                 
                         <th>Assignment Name</th>
                         <th>Assignment Mark</th>
                         <th>Examinee Name</th>
@@ -19,10 +19,10 @@ const OnlyPendingAssignment = ({ data }) => {
                         <th>Status</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody>                
                     {/* row 1 */}
                     <tr>
-                        <td>
+                        <td>               
                             <div className="flex items-center gap-3">
                                 <div className="avatar">
                                 </div>
