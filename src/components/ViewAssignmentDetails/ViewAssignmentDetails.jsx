@@ -11,7 +11,7 @@ const ViewAssignmentDetails = () => {
     const { id } = useParams();
     const details = detailsData.find(data => data._id == id);
     const { title, imageurl, descrip, mark, inputField, calender, email } = details;
-
+                       
     const handleSubmit = e => {
         e.preventDefault();
         const form = e.target;
