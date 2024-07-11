@@ -6,7 +6,7 @@ const MarkPage = () => {
     const loadData = useLoaderData();
     const { doc, textarea } = loadData;
     const navigate = useNavigate();
-
+  
     const handleMark = e => {
         e.preventDefault();
         const form = e.target;
@@ -19,7 +19,7 @@ const MarkPage = () => {
                 'content-type': 'application/json'
             },
             body: JSON.stringify(user)
-        })
+        })   
             .then(res => res.json())
             .then(data => {
                 if (data.acknowledged === true) {
@@ -29,7 +29,7 @@ const MarkPage = () => {
                         title: "Mark Give Done",
                         showConfirmButton: false,
                         timer: 1500
-                    });
+                    });   
                     navigate(location?.state ? location.state : '/pendingassignment')
                 }
             })
