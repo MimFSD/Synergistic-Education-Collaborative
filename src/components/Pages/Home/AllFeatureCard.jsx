@@ -7,7 +7,6 @@ import { AuthProvider } from '../../../AuthProvider/AuthContext';
 const AllFeatureCard = ({data}) => {
     const{theme} = useContext(AuthProvider);
     const {description,name,Class,image_url} = data;
-
     return (
         <div className='max-w-6xl mx-auto my-10 b'>
             <Card sx={{ maxWidth: 345 }}>
@@ -19,7 +18,7 @@ const AllFeatureCard = ({data}) => {
                         {name}
                     </Typography>
                     <Typography gutterBottom variant="h6" component="div">
-                        {Class}
+                        {Class}          
                     </Typography>
                     <Typography variant="body2" color="text.secondary" className=''>
                         <h2 className={theme === 'light'?'font-bold text-black' :'font-bold text-white'}>Description:</h2>
