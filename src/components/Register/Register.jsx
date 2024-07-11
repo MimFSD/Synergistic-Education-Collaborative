@@ -11,7 +11,7 @@ const Register = () => {
     const [error, setError] = useState('');
     const [success, setSuccess] = useState('');
     const navigate = useNavigate();
-
+                        
     const handleRegister = e => {
         e.preventDefault();
         const form = e.target;
@@ -20,7 +20,7 @@ const Register = () => {
         const conPass = form.conPass.value;
         if (pass !== conPass) {
             return setpass('password and confirm password is no match')
-        }
+        }              
         if (pass.length < 6) {
             setError('Please provide at least 6 character password');
             return;
@@ -30,7 +30,7 @@ const Register = () => {
         } else if (!/[a-z]/.test(pass)) {
             setError('please provide at least one lowercase character');
             return;
-        }
+        }              
 
         setError('');
 
