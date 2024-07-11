@@ -2,17 +2,17 @@ import { useContext, useEffect, useState } from "react";
 import Assignment from "./Assignment";
 import { AuthProvider } from "../../../AuthProvider/AuthContext";
 import { Helmet } from "react-helmet-async";
-
+                           
 const AllAssignment = () => {
     const { loading ,theme} = useContext(AuthProvider);
     const [assignment, setAssignment] = useState([]);
     const [value, setvalue] = useState("Easy");
-
+                         
     const getData = () => {
         fetch('https://online-group-study-server-site.vercel.app/assignment')
             .then(res => res.json())
             .then(data => {
-                if(value === 'All') {
+                if(value === 'All') {                   
                     setAssignment(data);
                 }else if(value === "Easy") {
                     setAssignment(data.filter((a) => a.inputField === 'Easy'));
