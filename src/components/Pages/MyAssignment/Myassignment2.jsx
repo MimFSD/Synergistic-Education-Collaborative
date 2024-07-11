@@ -6,7 +6,7 @@ const Myassignment2 = ({ data }) => {
         <div className='mt-5 overflow-x-auto'>
             <table className="table">
                 {/* head */}
-                <thead>
+                <thead>    
                     <tr>
                         <th>Assignment Name</th>
                         <th>Assignment Mark</th>
