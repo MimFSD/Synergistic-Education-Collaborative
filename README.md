@@ -5,7 +5,7 @@
 PROJECT Name :  
 # E-GroupStudy 
 
-## Feature For my E-GroupStudy project :
+# Feature For my E-GroupStudy project :
 
  - Banner
  - Feature Section
@@ -15,7 +15,7 @@ PROJECT Name :
  - Login and Register section
  - Footer
 
-##  Technologies what use this project :
+#  Technologies what use this project :
 
  - Html
  - Css
@@ -26,14 +26,14 @@ PROJECT Name :
  - MongoDB
 
 
-##  Project Overview :
+#  Project Overview :
 
  - Every user in this website, see the all assignment in this site.
  - User see the all assignment details and name.
  - if user like any kind of assignment so this user take this assignment and comment on this assignment.
  - This site basically a assignment related site. Any kind of assignment search and find this site.
 
-##  If you clone this code. so follow this step :
+#  If you clone this code. so follow this step :
 1. first of all copy the git clone link.
 2. Then open cmd line and go to your path and type git clone and paste this link and press enter.
 3. Then type code . and press enter. so open visual studio code.
