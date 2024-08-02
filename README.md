@@ -3,16 +3,6 @@
 Project Name :  Online group study - Synergistic Education Collaborative
 Website : [Synergistic-Education-Collaborative](https://online-group-study-67ed0.firebaseapp.com/)
 
-# Feature  :
-
- - Banner
- - Feature Section
- - Faq Section
- - ViewDetailsAssignment Section
- - Update and delete section and function
- - Login and Register section
- - Footer
-
 
 ## Features
 
