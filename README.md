@@ -1,9 +1,7 @@
  <!-- Links live site : https://online-group-study-67ed0.web.app/ -->
 <!-- #  Links live site : https://online-group-study-67ed0.firebaseapp.com/ -->
-
- [Synergistic-Education-Collaborative](https://online-group-study-67ed0.firebaseapp.com/)
-
 Project Name :  Online group study - Synergistic Education Collaborative
+Website : [Synergistic-Education-Collaborative](https://online-group-study-67ed0.firebaseapp.com/)
 
 # Feature  :
 
