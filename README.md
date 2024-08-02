@@ -54,6 +54,7 @@ Website : [Synergistic-Education-Collaborative](https://online-group-study-67ed0
 
   - The server-side application is deployed on Vercel, a platform that simplifies the deployment process.
   - Vercel ensures quick and reliable deployment, enabling continuous updates and improvements.
+    
 #  Technologies what use this project :
 
  - Html
